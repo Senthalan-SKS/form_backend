@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Form</title>
+</head>
+<body>
+    <h1>Basic HTML Form</h1>
+    <form action="/simple web application/form_backend/backend.php" method="POST" enctype="multipart/form-data">
+        <!-- Text Input -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Password Input -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <!-- Dropdown Menu -->
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <!-- Checkbox -->
+        <label>
+            <input type="checkbox" name="agree" required>
+            I agree to the terms and conditions
+        </label><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
