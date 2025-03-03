@@ -35,7 +35,8 @@ Ensure you have XAMPP installed on your system. You can download it here: [XAMPP
 ---
 
 Feature
-. Basic CRUD Operations
+.  form submitting Operations
+.  file uploading 
 
 ---
 
